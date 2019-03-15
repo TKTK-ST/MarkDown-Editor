@@ -1,0 +1,47 @@
+html{
+    width:100vw;
+    height:100vh;
+    margin:0;
+}
+body{
+    width: 92%;
+    height: 92%;
+    overflow: hidden;
+    margin: 4% 5%;
+}
+form[name="test"]{
+    width:40%;
+    height:100%;
+    margin:0;
+    float:left;
+    position: fixed;
+    top: 10%;
+}
+textarea[name="txt"]{
+    position: fixed;
+    top: 10%;
+    left: 5%;
+    width: 39%;
+    height: 80%;
+    border: 2px solid silver;
+    padding: 2%;
+}
+#view{
+    position: fixed;
+    top: 10%;
+    left: 53%;
+    width: 37%;
+    height: 80%;
+    border: 2px solid silver;
+    overflow: scroll;
+    padding: 2%;
+}
+#selfile{
+    position: fixed;
+    top: 4%;
+    left: 5%;
+}
+
+*{
+    outline: none;
+}
